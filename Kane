@@ -1,0 +1,22 @@
+<script>
+function doFirst(){
+  var form = document.getElementById('myForm');
+  form.addEventListener("submit", function(event){
+  event.preventDefault();
+  var name =form.textfield.value;
+  var descr= form.textarea.value;
+  var date= new Date(form.date.value);
+
+  let tp= [  name, descr,date ];
+
+  localStorage.setItem("1","tp")
+
+  var  produce = document.getElementById('produce');
+  var links = document.createElement("A");
+  links.setAttribute("href", "project.html" );
+  links.setAttribute ("class", "link" );
+  var project = document.createTextNode(name);
+  links.appendchild(project);
+  display.appendchild(links);
+  form.reset();
+</script>

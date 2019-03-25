@@ -1,0 +1,36 @@
+body{background-color:#9f9f9f;}
+
+
+.box{
+    border:2px solid black;
+    width: 60%
+    height= 200;
+    margin:10%;
+    position: relative;
+}
+.box p1{
+    position: absolute;
+    left: 30%;
+}
+.box> p2{
+    position:absolute;
+    top:20%;
+    left:40%;
+
+}
+.block{
+border :1px solid black;
+float: left;
+margin: 50px;
+width: 250px;
+text-align: center;
+
+}
+.container{
+border:2px solid black;
+width: 75%;
+margin: 10%;
+float :left;
+
+
+}
