@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head> <link rel="stylesheet" type="text/css" href="anything.css"></head>
+<title></title>
+<h1>PLEASE FILL IN THE FORM BELOW</h1>
+<script>
+function save(){
+
+  var fieldValue=document.getElementById('name').value;
+  //localStorage.setItem('projectName', fieldValue);
+  var fieldValue1=document.getElementById('projectDescription').value;
+  //localStorage.setItem('projectDescription', fieldValue);
+
+  var fieldValue2=document.getElementById('date').value;
+  //localStorage.setItem('completionDate', fieldValue);
+  var form =document.getElementById('myForm');
+
+  var arr = [fieldValue, fieldValue1, fieldValue2];
+  localStorage.setItem(fieldValue, arr);
+
+  form.reset();
+}
+
+</script>
+
+
+<body>
+<form id="myForm">
+<div>
+<label>  PROJECT NAME</label>
+    <br>
+<input type= "text" name="projectName" id ="name"/>
+</div>
+
+<br>
+<div>
+<label> PROJECT DESCRIPTION</label>
+<br>
+<input type= "text" name="projectDescription" id ="projectDescription"/>
+</div>
+
+<br>
+<div>
+  <label>COMPLETION DATE</label>
+  <br>
+  <input type= "date" name = "completionDate" id= "date"></input>
+</div>
+
+
+<br>
+<div>
+<label>CLICK TO SAVE</label>
+<br>
+<input type="submit" value="submit" id= "compDate"></input>
+
+</form>
+<script src="Kane.js" lang="javascript" type="text/javascript"></script>
+<div id= "display"></div>
+
+<br>
+<div class="box">
+    <p1>INNOCENT KAPHASO ON WEB DEVELOPMENT. SO WHAT TO DO?</p1>
+    <P><img src="smile.jpg" height="300px"   >
+    </p>
+
+    <p2>
+     <ol>
+     <li> <a href="https://github.com/kaphaso">TAKE A LOOK AT MY GITHUB PROFILE</a></li>
+
+    <li>/<a href="https://instagram.com/mcbrain_101">VISIT MY INSTAGRAM PROFILE</a></li>
+    </ol>
+    </p2>
+   </div>
+
+</div>
+      <p>
+    <div>
+
+
+      <div class="container">
+
+            <div class="block">
+                  <strong> <p><u>MY PROJECTS SO FAR:</u></strong></p>
+                     <ol>
+                        <b>
+                        <li>not yet</li>
+                        <li>not yet</li>
+                        <li>not yet</li>
+                        </b>
+                     </ol>
+               <p>
+               </div>
+
+
+<div class="block">
+   <strong> <p><u>MY PROJECTS SO FAR:</u></strong></p>
+      <ol>
+         <b>
+         <li>not yet</li>
+         <li>not yet</li>
+         <li>not yet</li>
+         </b>
+      </ol>
+<p>
+</div>
+
+
+
+<div class="block">
+      <strong> <p><u>MY PROJECTS SO FAR:</u></strong></p>
+         <ol>
+            <b>
+            <li>not yet</li>
+            <li>not yet</li>
+            <li>not yet</li>
+            </b>
+         </ol>
+   <p>
+   </div>
+
+   <div class="block">
+      <strong> <p><u>MY PROJECTS SO FAR:</u></strong></p>
+         <ol>
+            <b>
+            <li>not yet</li>
+            <li>not yet</li>
+            <li>not yet</li>
+            </b>
+         </ol>
+   <p>
+   </div>
+
+
+<div class="block">
+      <strong> <p><u>MY PROJECTS SO FAR:</u></strong></p>
+         <ol>
+            <b>
+            <li>not yet</li>
+            <li>not yet</li>
+            <li>not yet</li>
+            </b>
+         </ol>
+   <p>
+   </div>
+
+<div class="block">
+<strong> <p><u>SPECIFIC SKILLS</u></strong></p>
+<ol>
+   <b>
+   <li>java programming</li>
+   <li>web development</li>
+   <li>enterprise architecture</li>
+
+   </b>
+</ol>
+
+</div>
+
+</div>
+
+
+</body>
+
+
+</html>
